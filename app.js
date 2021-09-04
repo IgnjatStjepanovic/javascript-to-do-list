@@ -1,0 +1,3 @@
+function addNewElement() {
+    alert('AddNew!')
+}
