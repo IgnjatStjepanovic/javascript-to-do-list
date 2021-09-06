@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgb(146, 153, 153);  
-  height: 20vh;
+  height: 30vh;
 }
 
 h2 {
@@ -46,4 +46,18 @@ input {
   color: #000000;
   background-color: #ffffff;
   cursor: pointer;
+}
+
+li {
+  padding: 0.6em 1.2em;
+  border: 0.1em solid #000000;
+  background-color: #ffffff;
+  margin: 2px;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-align: left;  
 }
