@@ -63,6 +63,7 @@ input {
 ul {
   display: table;
   margin: 0px auto 0px auto;
+  list-style: none;
 }
 
 li {
@@ -77,6 +78,7 @@ li {
   color: #000000;
   text-align: left;
   width: 50vw;
+  min-height: 1.5rem
 }
 
 button {

@@ -17,9 +17,13 @@ function addNewElement() {
   doneButton.innerHTML = "&#9989";
   li.appendChild(doneButton);
   doneButton.addEventListener("click", function () {
-    this.parentNode.style.backgroundColor = "chartreuse";
+    console.log(this.parentNode.style.backgroundColor);
+    if (this.parentNode.style.backgroundColor === "chartreuse") {
+      this.parentNode.style.backgroundColor = "#ffffff";
+      this.parentNode.style.textDecoration = "initial";
+    } else {
+      this.parentNode.style.backgroundColor = "chartreuse";
+      this.parentNode.style.textDecoration = "line-through";
+    }
   });
-
-
-
 }
